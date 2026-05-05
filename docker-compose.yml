@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  frontend:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+
+  api:
+    image: node:18-alpine
+    working_dir: /app
+    volumes:
+      - ./db.json:/app/db.json
+      - ./server.cjs:/app/server.cjs
+    command: sh -c "npm install json-server@0.17.4 json-server-auth bcryptjs && node server.cjs"
+    ports:
+      - "4000:4000"
