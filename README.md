@@ -1,16 +1,68 @@
-# React + Vite
+# Sugarpanel Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive admin dashboard built with React, Bootstrap, and json-server.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Frontend:** https://task-for-units-sa.vercel.app
+- **API:** https://task-for-units-sa.onrender.com
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React + Vite
+- React Router DOM
+- React Bootstrap + Bootstrap 5
+- Recharts
+- Axios
+- json-server + json-server-auth
+- Docker + Docker Compose
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+├── api/ # API service layer
+├── components/ # Reusable components
+│ ├── dashboard/
+│ ├── login/
+│ ├── products/
+│ └── shared/
+├── context/ # Auth context
+├── hooks/ # Custom hooks
+├── layouts/ # MainLayout
+├── pages/ # Login, Dashboard, ProductList, ProductDetails
+└── routes/ # App routes
+
+## Run Locally
+
+### Without Docker
+
+```bash
+# Install dependencies
+npm install
+
+# Start API
+node server.cjs
+
+# Start frontend
+npm run dev
+```
+
+### With Docker
+
+```bash
+docker-compose up --build
+```
+
+- Frontend: http://localhost:3000
+- API: http://localhost:4000
+
+## Login Credentials
+
+Email: admin@sugarpanel.com
+Password: 123456
+
+## Build
+
+```bash
+npm run build
+```
