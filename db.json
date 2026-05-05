@@ -1,0 +1,467 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ameerah Howard",
+      "email": "admin@sugarpanel.com",
+      "password": "$2b$10$EqXXnmsaCsI4AosMj/HNOet6mSMqE.DiRbIjVTuoDUSQSirVpDjlW"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Liam Anderson Red",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&h=300&fit=crop",
+      "revenue": 1240.22,
+      "sales": 1909,
+      "reviews": 2192,
+      "views": 3322,
+      "active": false,
+      "stock": "In Stock"
+    },
+    {
+      "id": 2,
+      "name": "Ava Reynolds Blue",
+      "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=300&h=300&fit=crop",
+      "revenue": 1240.22,
+      "sales": 1909,
+      "reviews": 2192,
+      "views": 3322,
+      "active": true,
+      "stock": "In Stock"
+    },
+    {
+      "id": 3,
+      "name": "Jackson White Blue",
+      "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=300&h=300&fit=crop",
+      "revenue": 1240.22,
+      "sales": 1909,
+      "reviews": 2192,
+      "views": 3322,
+      "active": false,
+      "stock": "In Stock"
+    },
+    {
+      "id": 4,
+      "name": "Bennett Reynolds Blue",
+      "image": "https://images.unsplash.com/photo-1539185441755-769473a23570?w=300&h=300&fit=crop",
+      "revenue": 1240.22,
+      "sales": 1909,
+      "reviews": 2192,
+      "views": 3322,
+      "active": true,
+      "stock": "In Stock"
+    },
+    {
+      "id": 5,
+      "name": "Run Reynolds Blue",
+      "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=300&h=300&fit=crop",
+      "revenue": 1240.22,
+      "sales": 1909,
+      "reviews": 2192,
+      "views": 3322,
+      "active": true,
+      "stock": "In Stock"
+    }
+  ],
+  "stats": [
+    {
+      "id": 1,
+      "grossRevenue": 2480.32,
+      "grossRevenueChange": 8.33,
+      "avgOrderValue": 320.21,
+      "avgOrderValueChange": -8.33,
+      "totalOrders": 1899.49,
+      "totalOrdersChange": -0.33
+    }
+  ],
+  "transactionActivity": [
+    {
+      "month": "Jan",
+      "total": 200,
+      "success": 180
+    },
+    {
+      "month": "Feb",
+      "total": 350,
+      "success": 280
+    },
+    {
+      "month": "Mar",
+      "total": 250,
+      "success": 200
+    },
+    {
+      "month": "Apr",
+      "total": 400,
+      "success": 380
+    },
+    {
+      "month": "May",
+      "total": 456,
+      "success": 387
+    },
+    {
+      "month": "Jun",
+      "total": 380,
+      "success": 350
+    },
+    {
+      "month": "Jul",
+      "total": 420,
+      "success": 390
+    },
+    {
+      "month": "Aug",
+      "total": 350,
+      "success": 300
+    },
+    {
+      "month": "Sep",
+      "total": 280,
+      "success": 250
+    },
+    {
+      "month": "Oct",
+      "total": 320,
+      "success": 280
+    },
+    {
+      "month": "Nov",
+      "total": 200,
+      "success": 180
+    },
+    {
+      "month": "Dec",
+      "total": 250,
+      "success": 220
+    }
+  ],
+  "salePerformance": [
+    {
+      "month": "Jan",
+      "value": 200
+    },
+    {
+      "month": "Feb",
+      "value": 280
+    },
+    {
+      "month": "Mar",
+      "value": 220
+    },
+    {
+      "month": "Apr",
+      "value": 300
+    },
+    {
+      "month": "May",
+      "value": 380
+    },
+    {
+      "month": "Jun",
+      "value": 320
+    },
+    {
+      "month": "Jul",
+      "value": 340
+    },
+    {
+      "month": "Aug",
+      "value": 380
+    },
+    {
+      "month": "Sep",
+      "value": 360
+    },
+    {
+      "month": "Oct",
+      "value": 400
+    },
+    {
+      "month": "Nov",
+      "value": 280
+    },
+    {
+      "month": "Dec",
+      "value": 320
+    }
+  ],
+  "productStatics": [
+    {
+      "month": "Jan",
+      "value": 220,
+      "max": 450
+    },
+    {
+      "month": "Feb",
+      "value": 420,
+      "max": 580
+    },
+    {
+      "month": "Mar",
+      "value": 160,
+      "max": 380
+    },
+    {
+      "month": "Apr",
+      "value": 290,
+      "max": 490
+    },
+    {
+      "month": "May",
+      "value": 160,
+      "max": 420
+    },
+    {
+      "month": "Jun",
+      "value": 260,
+      "max": 450
+    },
+    {
+      "month": "Jul",
+      "value": 200,
+      "max": 380
+    },
+    {
+      "month": "Aug",
+      "value": 90,
+      "max": 130
+    },
+    {
+      "month": "Sep",
+      "value": 30,
+      "max": 290
+    },
+    {
+      "month": "Oct",
+      "value": 470,
+      "max": 530
+    },
+    {
+      "month": "Nov",
+      "value": 110,
+      "max": 360
+    },
+    {
+      "month": "Dec",
+      "value": 360,
+      "max": 410
+    }
+  ],
+  "ordersByTime": [
+    {
+      "hour": "8am",
+      "data": [
+        10,
+        5,
+        20,
+        15,
+        800,
+        200,
+        50,
+        30,
+        10,
+        5,
+        20,
+        30,
+        5,
+        10,
+        5,
+        20
+      ]
+    },
+    {
+      "hour": "10am",
+      "data": [
+        50,
+        100,
+        200,
+        800,
+        1200,
+        1500,
+        600,
+        400,
+        200,
+        100,
+        50,
+        30,
+        20,
+        10,
+        5,
+        10
+      ]
+    },
+    {
+      "hour": "12am",
+      "data": [
+        100,
+        200,
+        500,
+        1200,
+        1800,
+        2000,
+        1500,
+        1000,
+        500,
+        300,
+        200,
+        100,
+        50,
+        30,
+        20,
+        30
+      ]
+    },
+    {
+      "hour": "2pm",
+      "data": [
+        200,
+        400,
+        800,
+        1500,
+        2000,
+        2500,
+        2200,
+        1800,
+        1200,
+        800,
+        500,
+        300,
+        200,
+        100,
+        50,
+        80
+      ]
+    },
+    {
+      "hour": "4pm",
+      "data": [
+        100,
+        300,
+        600,
+        1200,
+        1800,
+        2000,
+        1500,
+        1000,
+        600,
+        400,
+        200,
+        100,
+        50,
+        30,
+        20,
+        40
+      ]
+    },
+    {
+      "hour": "6pm",
+      "data": [
+        50,
+        150,
+        400,
+        800,
+        1500,
+        1800,
+        1200,
+        800,
+        400,
+        200,
+        100,
+        50,
+        30,
+        20,
+        10,
+        20
+      ]
+    }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "name": "New York Store",
+      "performance": 78,
+      "members": 12
+    },
+    {
+      "id": 2,
+      "name": "Los Angeles Store",
+      "performance": 78,
+      "members": 12
+    },
+    {
+      "id": 3,
+      "name": "Chicago Store",
+      "performance": 78,
+      "members": 12
+    },
+    {
+      "id": 4,
+      "name": "Houston Store",
+      "performance": 78,
+      "members": 12
+    }
+  ],
+  "schedule": [
+    {
+      "id": 1,
+      "category": "Product Design",
+      "title": "Meeting with Arthur Bell",
+      "time": "09:00 - 09:45 AM (UTC)",
+      "attendees": 5
+    },
+    {
+      "id": 2,
+      "category": "Marketing Business",
+      "title": "Meeting with Leslie Perez",
+      "time": "09:00 - 09:45 AM (UTC)",
+      "attendees": 3
+    },
+    {
+      "id": 3,
+      "category": "Brainstorming Session",
+      "title": "Meeting with Leslie Perez",
+      "time": "09:00 - 09:45 AM (UTC)",
+      "attendees": 3
+    }
+  ],
+  "conversionRate": [
+    {
+      "id": 1,
+      "label": "Product Views",
+      "percentage": 25,
+      "value": 6575
+    },
+    {
+      "id": 2,
+      "label": "Add to Cart",
+      "percentage": 25,
+      "value": 6575
+    },
+    {
+      "id": 3,
+      "label": "Checkout Initiated",
+      "percentage": 25,
+      "value": 6575
+    },
+    {
+      "id": 4,
+      "label": "Completed Purchases",
+      "percentage": 25,
+      "value": 6575
+    },
+    {
+      "id": 5,
+      "label": "Completed Purchases",
+      "percentage": 25,
+      "value": 6575
+    },
+    {
+      "id": 6,
+      "label": "Completed Purchases",
+      "percentage": 25,
+      "value": 6575
+    }
+  ]
+}
