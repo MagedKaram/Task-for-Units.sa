@@ -20,12 +20,12 @@ function MainLayout() {
                     <Sidebar />
                 </div>
 
-                {/* Mobile Sidebar - always visible, hover/click to expand */}
+                {/* Mobile Sidebar  */}
                 <div className="d-flex d-md-none" style={{ zIndex: 1050 }}>
                     <Sidebar forceExpanded={mobileExpanded} />
                 </div>
 
-                {/* Blur Overlay - mobile only when expanded */}
+                {/* Blur Overlay */}
                 {mobileExpanded && (
                     <div
                         className="position-fixed w-100 d-md-none"

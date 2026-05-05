@@ -17,12 +17,12 @@ function Dashboard() {
             <div className="d-flex gap-3 flex-wrap mb-4">
                 <div className="d-flex flex-column gap-3 flex-grow-1" style={{ minWidth: 300 }}>
                     <div className="d-flex gap-3 flex-wrap">
-                        <TransactionActivityChart />
-                        <SalePerformanceChart />
+                        <div style={{ flex: 1 }}><TransactionActivityChart /></div>
+                        <div style={{ flex: 1 }}><SalePerformanceChart /></div>
                     </div>
                     <div className="d-flex gap-3 flex-wrap">
-                        <OrdersByTimeChart />
-                        <ProductStaticsChart />
+                        <div style={{ flex: 1 }}><OrdersByTimeChart /></div>
+                        <div style={{ flex: 1 }}><ProductStaticsChart /></div>
                     </div>
                 </div>
                 <ScheduleCard />
